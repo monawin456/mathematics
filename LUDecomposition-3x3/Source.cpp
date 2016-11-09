@@ -131,11 +131,6 @@ void print(double **A, int n) {
 }
 
 void mult(double **L, double **U, double **C, int n) {
-	C[0][0] = U[0][0];
-	C[0][1] = U[0][1];
-	C[1][0] = L[1][0] * U[0][0];
-	C[1][1] = L[1][0] * U[0][1] + U[1][1];
-
 	double tmp = 0;
 
 	for (int i = 0; i < n; i++) {
