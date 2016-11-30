@@ -66,6 +66,8 @@ int main() {
 
 	delete[] x;
 	delete[] y;
+
+	system("pause");
 	return 0;
 }
 
